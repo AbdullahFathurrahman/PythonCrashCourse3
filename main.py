@@ -16,14 +16,12 @@ print(s1.luas())
 
 print('\nMENCOBA MEMBUAT OBJECT DARI KELAS BANGUN RUANG')
 
-b1 = BangunRuang
-'''print(b1.luas())
-print(b1.info())'''
+b1 = BangunRuang()
+print(b1.luas())
+print(b1.info())
 
 # POLIMORPHISME KEMAMPUAN OBJECT UNTUK MERESPON BERBEDA PEMANGGILAN METHOD YANG SAMA
-daftar_bangun_ruang = []
-daftar_bangun_ruang.append(p1)
-daftar_bangun_ruang.append(s1)
+daftar_bangun_ruang = [p1, s1]
 
 for bangun_ruang in daftar_bangun_ruang:
     print(bangun_ruang.info())

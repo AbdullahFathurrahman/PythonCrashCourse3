@@ -1,10 +1,6 @@
-class BangunRuang:
-    pass
+class BangunRuang(object):
+    def info(self):
+        pass
 
-
-def info():
-    pass
-
-
-def luas():
-    pass
+    def luas(self):
+        pass
